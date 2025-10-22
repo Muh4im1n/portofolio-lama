@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: green;
+  text-decoration: underline;
+}
