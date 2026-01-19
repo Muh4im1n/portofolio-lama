@@ -3,99 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
+    <title>Portofolio | Muhaimin Hasan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<navbar>
-        <div>
-            <ul>
-                <li><a href="Home">Home</a></li>
-                <li><a href="Contact">Contact</a></li>
-                <li><a href="Experience">Experience</a></li>
-            </ul>
-        </div>
-</navbar>
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <header class="header">
-        <div class="header-konten">
-            <div class="header-text">
-                <h1>Muhaimin Hasan Ardhi Muqaffi</h1>
-                <p>Front End Developer</p>
+<header id="home" class="header">
+    <div class="header-konten">
+        <div class="header-text">
+            <h1>Muhaimin Hasan Ardhi Muqaffi</h1>
+            <p>Front End Developer</p>
+        </div>
+        <div class="img-container">
+            <img src="foto 1.png" alt="Profile Muhaimin" class="lingkaran-profile">
+        </div>
+    </div>
+</header>
+
+<section id="experience" class="section-pengalaman">
+    <h2 class="section-judul">EXPERIENCES</h2>
+    
+    <div class="container-pengalaman">
+        <div class="column-pendidikan">
+            <div class="box-pendidikan">
+                <h3>SD</h3>
+                <p>SDN Sukalaksana 2</p>
             </div>
-            <div class="img">
-                    <img src="foto 1.png" alt="" class="lingkaran-profile">
+            <div class="box-pendidikan">
+                <h3>SMP</h3>
+                <p>MTs Islahul Amanah & MTs An-Nashr</p>
+            </div>
+            <div class="box-pendidikan">
+                <h3>SMK</h3>
+                <p>SMKN 1 Garut</p>
             </div>
         </div>
-    </header>
 
-    <section class="section-pengalaman">
-        <h2 class="section-judul">EXPERIENCES</h2>
+        <div class="column-keahlian">
+            <div class="skill-box-large">
+                <h3>KEAHLIAN</h3>
+                <ul>
+                    <li>Desain Grafis (Photoshop, Canva)</li>
+                    <li>Web Development (HTML, CSS, JS)</li>
+                    <li>UI/UX Design (Figma)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section-kontak">
+    <h2 class="section-judul">CONTACT</h2>
+    
+    <div class="container-kontak">
+        <div class="contact-info">
+            <div class="contact-card">
+                <span>📧</span>
+                <p>hasanmuqaffi@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <span>📸</span>
+                <p>@muhaiminardh1</p>
+            </div>
+        </div>
         
-        <div class="container-pengalaman">
-            <div class="column-pendidikan">
-                <div class="box-pendidikan">
-                    <h3>SD</h3>
-                    <p>SDN Sukalaksana 2</p>
-                </div>
-                <div class="box-pendidikan">
-                    <h3>SMP</h3>
-                    <p>MTs Islahul Amanah</p>
-                    <p>MTs An-Nashr</p>
-                </div>
-                <div class="box-pendidikan">
-                    <h3>SMK</h3>
-                    <p>SMKN 1 Garut</p>
-                </div>
-            </div>
-
-            <div class="column-keahlian">
-                <div class="skill-box-large">
-                    <h3>KEAHLIAN</h3>
-                    <ul>
-                        <li>Desain Grafis</li>
-                        <li>Web Development</li>
-                        <li>UI/UX Design</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-kontak">
-        <h2 class="section-title">CONTACT</h2>
-        
-        <div class="container-kontak">
+        <div class="contact-form-container">
             <form class="contact-form">
-                <div class="input-group">
-                    <div class="icon-circle"></div>
-                    <p>hasanmuqaffi@gmail.com</p>
-                </div>
-                <div class="input-group">
-                    <p>@muhaiminardh1</p>
-                </div>
+                <input type="email" placeholder="Email Anda" required>
+                <input type="text" placeholder="Subjek">
+                <textarea placeholder="Pesan Anda..." rows="4"></textarea>
+                <button type="submit" class="btn-kirim">KIRIM PESAN</button>
             </form>
-            
-            <div class="contact-spacer">
-            <form class="contact-form">
-                <div class="input-group">
-                    <div class="icon-circle"></div>
-                    <input type="text" placeholder="Email">
-                </div>
-                <div class="input-group">
-                    <input type="text" placeholder="Subjek">
-                </div>
-                <div class="input-group">
-                    <input type="text" placeholder="Pesan">
-                </div>
-            </form></div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <footer>
-        <p>&copy; 2024 Muhaimin </p>
-    </footer>
+<footer>
+    <p>&copy; 2024 Muhaimin Hasan | Front End Portfolio</p>
+</footer>
 
 </body>
 </html>
