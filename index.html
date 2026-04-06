@@ -1,95 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio | Muhaimin Hasan</title>
+    <script src="https://kit.fontawesome.com/d44354a70b.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
+
+<style>
+</style>
+
 <body>
 
-<nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<header id="home" class="header">
-    <div class="header-konten">
+    <header id="home" class="header">
         <div class="header-text">
+            <p>Halo, nama saya</p>
             <h1>Muhaimin Hasan Ardhi Muqaffi</h1>
-            <p>Front End Developer</p>
+            <p>Front End Developer & UI/UX Designer</p>
+            <a href="#about" class="btn-explore">Lihat Portofolio <i class="fa-solid fa-arrow-right"
+                    style="margin-left:10px"></i></a>
         </div>
-        <div class="img-container">
-            <img src="foto 1.png" alt="Profile Muhaimin" class="lingkaran-profile">
-        </div>
-    </div>
-</header>
+    </header>
 
-<section id="experience" class="section-pengalaman">
-    <h2 class="section-judul">EXPERIENCES</h2>
-    
-    <div class="container-pengalaman">
-        <div class="column-pendidikan">
-            <div class="box-pendidikan">
-                <h3>SD</h3>
-                <p>SDN Sukalaksana 2</p>
-            </div>
-            <div class="box-pendidikan">
-                <h3>SMP</h3>
-                <p>MTs Islahul Amanah & MTs An-Nashr</p>
-            </div>
-            <div class="box-pendidikan">
-                <h3>SMK</h3>
-                <p>SMKN 1 Garut</p>
-            </div>
+    <section id="about" class="section-tentang">
+        <h2 class="section-judul">ABOUT ME</h2>
+        <div class="card-about">
+            <p>Saya adalah seorang pelajar di <strong>SMKN 1 Garut</strong>, mengambil jurusan Pengembangan Perangkat
+                Lunak (PPL). Saya memiliki gairah tinggi dalam membangun antarmuka web yang bersih, responsif, dan mudah
+                digunakan, Ini adalah website pertama saya jadi mohon maaf apabila masih banyak kekurangan website,
+                website ini saya buat dari 0 hanya dengan menggunakan Html dan css tanpa menggunakan JavaScrip ataupun
+                framework lainnya karena saya ingin website ini 100% hasil saya. TERIMA KASIH</p>
         </div>
+    </section>
 
-        <div class="column-keahlian">
-            <div class="skill-box-large">
-                <h3>KEAHLIAN</h3>
-                <ul>
-                    <li>Desain Grafis (Photoshop, Canva)</li>
-                    <li>Web Development (HTML, CSS, JS)</li>
-                    <li>UI/UX Design (Figma)</li>
-                </ul>
+    <section id="experience" class="section-pengalaman">
+        <h2 class="section-judul">EXPERIENCES</h2>
+        <div class="container-pengalaman">
+            <div class="column-pendidikan">
+                <div class="box-pendidikan">
+                    <span style="color: #ffcc00; font-size: 0.8rem;">2022 - Sekarang</span>
+                    <h3>SMKN 1 Garut</h3>
+                    <p>Pengembangan Perangkat Lunak & Gim</p>
+                </div>
+                <div style="margin-top:20px" class="box-pendidikan">
+                    <span style="color: #ffcc00; font-size: 0.8rem;">Sekolah Menengah</span>
+                    <h3>MTs An-Nashr (2023-2025)</h3>
+                    <h3>MTs islahul Amanah (2022-2023)</h3>
+                    <p>Pendidikan Dasar Menengah</p>
+                </div>
+                <div style="margin-top:20px" class="box-pendidikan">
+                    <span style="color: #ffcc00; font-size: 0.8rem;">Sekolah Dasar</span>
+                    <h3>Sdn Sukalaksana 02</h3>
+                    <p>Pendidikan dasar</p>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
 
-<section id="contact" class="section-kontak">
-    <h2 class="section-judul">CONTACT</h2>
-    
-    <div class="container-kontak">
-        <div class="contact-info">
-            <div class="contact-card">
-                <span>📧</span>
-                <p>hasanmuqaffi@gmail.com</p>
+            <div class="column-keahlian">
+                <div class="box-pendidikan" style="border-left-color: #764ba2;">
+                    <h3>KEAHLIAN</h3>
+                    <div class="skills-container">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript(proses)</span>
+                        <span class="skill-tag">reactjs(proses)</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Photoshop</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">MSQL</span>
+                        <span class="skill-tag"></span>
+                        <span class="skill-tag">UI Design</span>
+                        <span class="skill-tag">UI Design</span>
+                    </div>
+                </div>
             </div>
-            <div class="contact-card">
-                <span>📸</span>
-                <p>@muhaiminardh1</p>
-            </div>
-        </div>
-        
-        <div class="contact-form-container">
-            <form class="contact-form">
-                <input type="email" placeholder="Email Anda" required>
-                <input type="text" placeholder="Subjek">
-                <textarea placeholder="Pesan Anda..." rows="4"></textarea>
-                <button type="submit" class="btn-kirim">KIRIM PESAN</button>
-            </form>
-        </div>
-    </div>
-</section>
 
-<footer>
-    <p>&copy; 2024 Muhaimin Hasan | Front End Portfolio</p>
-</footer>
+            <div class="column-keahlian">
+                <div class="box-pendidikan" style="border-left-color: #a24b76;">
+                    <h3>KEAHLIAN</h3>
+                    <div class="skills-container">
+                        <a href="project 1/index.html">KLIK DISINI</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-kontak">
+        <h2 class="section-judul">GET IN TOUCH</h2>
+        <div class="container-kontak">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fa-brands fa-whatsapp" style="color:#25D366"></i>
+                    <p>
+                        082121492308 atau <a href="https://wa.me/082121492308" target="_HALLO">Klik Wa Saya</a>
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-brands fa-instagram" style="color:#E1306C"></i>
+                    <p>
+                        @muhaimin4rdh1 atau <a href="https://www.instagram.com/muhaimin4rdh1" target="_blank">Ikuti
+                            instagram Saya</a>
+                    </p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa-brands fa-github" style="color:#020202"></i>
+                    <p>Rymudh atau <a href="https://github.com/Rymudh" target="_blank">
+                            Lihat Github Saya </a>
+                    </p>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="subject" placeholder="subject" required>
+                    <textarea placeholder="Tell me about your project..." rows="5"></textarea>
+                    <button type="submit" class="btn-explore">
+                        Kirim pesan
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Muhaimin Hasan. Made with ❤️ in Garut.</p>
+    </footer>
 
 </body>
-</html>
+<html>
